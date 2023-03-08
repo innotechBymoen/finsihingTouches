@@ -1,0 +1,29 @@
+// Woah! Awesome use of partials. I bet this will come in handy when I start to add more pages to my project.
+// I put my uses at the top so that I can overwrite anything coming from these rules lower in my SCSS if needed.
+@use "general";
+@use "header";
+@use "footer";
+
+// Anything specific to this page I can put down here
+#page_hero {
+    display: grid;
+    place-items: center;
+    width: 80%;
+    row-gap: 10px;
+    text-align: center;
+
+    >img {
+        border-radius: 50%;
+        width: 250px;
+        height: 250px;
+    }
+}
+
+// I will put my media queries below early so that I don't mess this up later
+@media only screen and (min-width: 700px) {
+    
+}
+
+@media only screen and (min-width: 1020px) {
+    
+}

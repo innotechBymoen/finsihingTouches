@@ -1,0 +1,35 @@
+// Here I can put some SCSS I know will be sued on all pages. 
+// This will be different for lots of projects but the first few rules are probably always useful
+
+* {
+    // Setting everything margin and padding to 0 by default will make specific layout changes way easier later
+    margin: 0;
+    padding: 0;
+    // Setting a default font-family is a good choice
+    font-family: sans-serif;
+}
+
+// This rule will make it so images by default wont break out of the parent
+// I can still overwrite these rules later if I want for specific images, svgs or iframes
+img, svg, iframe {
+    max-width: 100%;
+    object-fit: cover;
+}
+
+// Here are the rules I think would be useful for all pages in my project. You might have different ones!
+
+body {
+    display: grid;
+    place-items: center;
+    width: 100%;
+}
+
+#page_header, #page_main, #page_footer {
+    display: grid;
+    place-items: center;
+    width: 100%;
+}
+
+#page_main {
+    min-height: 70vh;
+}

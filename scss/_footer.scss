@@ -1,0 +1,19 @@
+// I'll put my footer SCSS here so I can re-use it on different pages
+#page_footer {
+    min-height: 15vh;
+    color: white;
+    text-align: center;
+    background-color: #333333;
+    >p {
+        width: 80%;
+    }
+}
+
+// I will put my media queries below early so that I don't mess this up later
+@media only screen and (min-width: 700px) {
+    
+}
+
+@media only screen and (min-width: 1020px) {
+    
+}

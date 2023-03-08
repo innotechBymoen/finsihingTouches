@@ -1,0 +1,17 @@
+// I'll put my header SCSS here so I can re-use it on different pages
+#page_header {
+    min-height: 15vh;
+    >img {
+        width: 80%;
+        margin: 10px 0px;
+    }
+}
+
+// I will put my media queries below early so that I don't mess this up later
+@media only screen and (min-width: 700px) {
+    
+}
+
+@media only screen and (min-width: 1020px) {
+    
+}
